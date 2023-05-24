@@ -6,3 +6,4 @@ data augmentation in CNN
 # Now i convert my data_dir into list, then i want five samples, so i make them global "list(data_dir.glob('*/*.jpg'))[:5]"
 # I want to get length of my dataset, so i take len of my global images and save it as variable "image_count"
 # Then I check roses images in my dataset, so I use "PIL.Image" to open first image and save my roses images as variable "roses"
+# Now I gonna create one list for my images to sort "every type" of them and ine list for my images labels to give them numbers
