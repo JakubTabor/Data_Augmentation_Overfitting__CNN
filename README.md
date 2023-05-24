@@ -7,3 +7,4 @@ data augmentation in CNN
 # I want to get length of my dataset, so i take len of my global images and save it as variable "image_count"
 # Then I check roses images in my dataset, so I use "PIL.Image" to open first image and save my roses images as variable "roses"
 # Now I gonna create one list for my images to sort "every type" of them and ine list for my images labels to give them numbers
+# Then I convert my images into 3D number numpy arrays, next i resize then to the same dimension for training purpose
