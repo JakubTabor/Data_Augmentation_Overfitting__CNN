@@ -10,4 +10,4 @@ data augmentation in CNN
 # Then I convert my images into 3D number numpy arrays, next i resize then to the same dimension for training purpose
 # First i create two empty lists "X, y = [], []", then i make for loop " for flower_name, images in flowers_images_dict.items() and get acces to items"
 # Then in that loop i create another loop "for image in images", I create "img" variable which is "cv2.imread and str on my image", 
-# It will convert into 3D np.array
+# It will convert into 3D np.array, then I "resize img" using "cv2.resize" img variable and set size which is (180,180)
