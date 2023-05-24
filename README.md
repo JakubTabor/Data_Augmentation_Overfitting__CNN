@@ -8,3 +8,4 @@ data augmentation in CNN
 # Then I check roses images in my dataset, so I use "PIL.Image" to open first image and save my roses images as variable "roses"
 # Now I gonna create one list for my images to sort "every type" of them and ine list for my images labels to give them numbers
 # Then I convert my images into 3D number numpy arrays, next i resize then to the same dimension for training purpose
+# First i create two empty lists "X, y = [], []", then i make for loop " for flower_name, images in flowers_images_dict.items() and get acces to items"
