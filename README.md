@@ -13,3 +13,4 @@ data augmentation in CNN
 # It will convert into 3D np.array, then I "resize img" using "cv2.resize" img variable and set size which is (180,180)
 # Then I fill my "X and y" variables X with "resized_img as 3D array" and y with "flowers_labels_dict, so numbers of my labels of flower_name"
 # And I convert my X and y into numpy arrays, I have X and y prepared, so I import "train_test_split" and get "train" and "test" set
+# I check length of my sets and scaled them in range from 0 to 1 for training in my CNN
