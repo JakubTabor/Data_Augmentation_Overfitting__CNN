@@ -11,3 +11,4 @@ data augmentation in CNN
 # First i create two empty lists "X, y = [], []", then i make for loop " for flower_name, images in flowers_images_dict.items() and get acces to items"
 # Then in that loop i create another loop "for image in images", I create "img" variable which is "cv2.imread and str on my image", 
 # It will convert into 3D np.array, then I "resize img" using "cv2.resize" img variable and set size which is (180,180)
+# Then I fill my "X and y" variables X with "resized_img as 3D array" and y with "flowers_labels_dict, so numbers of my labels of flower_name"
