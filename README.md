@@ -14,3 +14,4 @@ data augmentation in CNN
 # Then I fill my "X and y" variables X with "resized_img as 3D array" and y with "flowers_labels_dict, so numbers of my labels of flower_name"
 # And I convert my X and y into numpy arrays, I have X and y prepared, so I import "train_test_split" and get "train" and "test" set
 # I check length of my sets and scaled them in range from 0 to 1 for training in my CNN
+# Now I gonna build CNN, I create variable "num_classes = 5", then I start building "Sequential model"
