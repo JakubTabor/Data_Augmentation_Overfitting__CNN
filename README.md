@@ -15,4 +15,5 @@ data augmentation in CNN
 # And I convert my X and y into numpy arrays, I have X and y prepared, so I import "train_test_split" and get "train" and "test" set
 # I check length of my sets and scaled them in range from 0 to 1 for training in my CNN
 # Now I gonna build CNN, I create variable "num_classes = 5", then I start building "Sequential model"
-# My first layer have 16 filter detectors, filter size is 3, "padding gonna add one layer of zeros to my image while processing
+# My first layer have 16 filter detectors, filter size is 3, "padding gonna add one layer of zeros to my image while processing"
+# And "same" gonna return same output shape as my input shape 
