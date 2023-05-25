@@ -20,3 +20,4 @@ data augmentation in CNN
 # Then I add "pool layer after every conv. layer", I also add two "hidden conv. layers" with 32 and 64 neurons
 # Next I add "Flatten layer" to convert it into "1D array" and I add one "Dense layer with 128 neurons", My "output layer will have 5 classes"
 # Then I compile my model with "optimizer as adam", loss as "SparseCategoricalCrossentropy", because my output is "exact value" and "metrics as accuracy"
+# I train my model with my "X_train_scaled, y_train and set number of epochs at 30" and I get unusually accuracy it means that my model is overtrained
