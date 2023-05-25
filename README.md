@@ -19,3 +19,4 @@ data augmentation in CNN
 # And "same" gonna return same output shape as my input shape 
 # Then I add "pool layer after every conv. layer", I also add two "hidden conv. layers" with 32 and 64 neurons
 # Next I add "Flatten layer" to convert it into "1D array" and I add one "Dense layer with 128 neurons", My "output layer will have 5 classes"
+# Then I compile my model with "optimizer as adam", loss as "SparseCategoricalCrossentropy", because my output is "exact value" and "metrics as accuracy"
