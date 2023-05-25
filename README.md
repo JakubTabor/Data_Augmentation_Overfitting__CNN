@@ -24,3 +24,4 @@ data augmentation in CNN
 # When I evaluate my model with completely new "X_test Scaler, y_test" it return me pretty low accuracy
 # I also check predictions returning index of my prediction "np.argmax(score)"
 # I gonna "augment" my data with new samples by "rotating and zooming" my original data, I can also "flip it"  
+# I show how my data is changing after "augmentation", I also need to it into "numpy and int" "data_augmentation(X)[0].numpy().astype("uint8")"
