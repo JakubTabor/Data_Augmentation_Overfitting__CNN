@@ -18,3 +18,4 @@ data augmentation in CNN
 # My first layer have 16 filter detectors, filter size is 3, "padding gonna add one layer of zeros to my image while processing"
 # And "same" gonna return same output shape as my input shape 
 # Then I add "pool layer after every conv. layer", I also add two "hidden conv. layers" with 32 and 64 neurons
+# Next I add "Flatten layer" to convert it into "1D array" and I add one "Dense layer with 128 neurons", My "output layer will have 5 classes"
