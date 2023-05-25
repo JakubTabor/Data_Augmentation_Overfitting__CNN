@@ -28,3 +28,4 @@ data augmentation in CNN
 # Once again I create my "Sequential model" but first I add "data_augmentation", then "thre convolutial layers", after every layer I create also "pool layer" 
 # And I add also "dropout layer" which will "drop 0.2 neurons" for better "accuracy score" and I Flatten my conv. layers
 # Then additional "Dense layer with 128 neurons" and output "Dense layer with five classes" 
+# I compile my model with this same parameters as earlier and train it with "X_train_scaled, y_train and 20 epochs
