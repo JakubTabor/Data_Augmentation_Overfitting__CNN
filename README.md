@@ -29,4 +29,4 @@ data augmentation in CNN
 # And I add also "dropout layer" which will "drop 0.2 neurons" for better "accuracy score" and I Flatten my conv. layers
 # Then additional "Dense layer with 128 neurons" and output "Dense layer with five classes" 
 # I compile my model with this same parameters as earlier and train it with "X_train_scaled, y_train and 20 epochs
-# Accuracy on my model is "87" but when I evaluate model with new data from my "test sets" accuracy is  in my previous model was 
+# Accuracy on my model is "88" but when I evaluate model with new data from my "test sets" accuracy is "70"  in my previous model was "63"
