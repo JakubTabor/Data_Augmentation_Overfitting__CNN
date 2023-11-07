@@ -1,5 +1,6 @@
  **Data_Augmentation_Overfitting__CNN**
-# First I need download dataset from tensorflo, so i save "url", then I use method "get_file" on "flower_photos" from my saved url "dataset_url"
+# First I need to download dataset from tensorflow
+# So i save "url", then I use method "get_file" on "flower_photos" from my saved url "dataset_url"
 * I save it in directory and unzip, using "untar"
 
 # Then I need to convert my data into "pathlib", thats because it will be more proper to use (Path of my data_dir), it looks like this (pathlib.Path(data_dir))
