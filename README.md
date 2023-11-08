@@ -21,7 +21,8 @@
 
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/convertion_of_all_images.png)
 
-# And I convert my **(X and y into numpy arrays)** I have X and y prepared, so I import (train_test_split) and get **(train and test sets)**
+# And i convert my (X and y into numpy arrays) i have (X and y) prepared
+* Next i import (train_test_split) and get **(train and test sets)**
 # I check length of my sets and scaled them in range from 0 to 1 for training in my CNN
 # Now I gonna build CNN, I create variable "num_classes = 5", then I start building "Sequential model"
 # My first layer have 16 filter detectors, filter size is 3, "padding gonna add one layer of zeros to my image while processing"
