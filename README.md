@@ -18,7 +18,8 @@
 * Then in that loop i create another loop **(for image in images)** i create **img** variable which is **(cv2.imread and str on my image)** 
 * It will convert into **(3D np.array)** then i resize img using **cv2.resize** img variable and set size which is **(180,180)**
 * Then I fill my **(X and y variables, X with resized_img as 3D array and y with flowers_labels_dict)** so numbers of my **labels of flower_name**
-# And I convert my X and y into numpy arrays, I have X and y prepared, so I import "train_test_split" and get "train" and "test" set
+
+# And I convert my **(X and y into numpy arrays)** I have X and y prepared, so I import (train_test_split) and get **(train and test sets)**
 # I check length of my sets and scaled them in range from 0 to 1 for training in my CNN
 # Now I gonna build CNN, I create variable "num_classes = 5", then I start building "Sequential model"
 # My first layer have 16 filter detectors, filter size is 3, "padding gonna add one layer of zeros to my image while processing"
