@@ -26,7 +26,7 @@
 * I check length of my sets and scaled them in range **(from 0 to 1 for training in my CNN)**
 
 # Now i gonna build CNN, i create variable to keep all visually good (num_classes = 5), then i start building (Sequential model)
-# My first layer have 16 filter detectors, filter size is 3, "padding gonna add one layer of zeros to my image while processing"
+* First layer have 16 filter detectors **(filter size is 3)** padding means adding **one layer of zeros** to my image while processing
 # And "same" gonna return same output shape as my input shape 
 # Then I add "pool layer after every conv. layer", I also add two "hidden conv. layers" with 32 and 64 neurons
 # Next I add "Flatten layer" to convert it into "1D array" and I add one "Dense layer with 128 neurons", My "output layer will have 5 classes"
