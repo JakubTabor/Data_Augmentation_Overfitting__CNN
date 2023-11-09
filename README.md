@@ -40,7 +40,7 @@
 * **metrics is accuracy**
 
 # Next training of my model, so i use (X_train_scaled, y_train and set number of epochs at 30)
-* i get unusually accuracy it means that my model is overtrained
+* During the training appears **(accuracy close to 1.00)** it means that my model is overtrained
 # When I evaluate my model with completely new "X_test Scaler, y_test" it return me pretty low accuracy
 # I also check predictions returning index of my prediction "np.argmax(score)"
 # I gonna "augment" my data with new samples by "rotating and zooming" my original data, I can also "flip it"  
