@@ -38,7 +38,9 @@
 * And also one **(Dense layer with 128 neurons)** **(My output layer have 5 classes)**
 * Then i compile my model with **optimizer as adam** and loss as **SparseCategoricalCrossentropy**, because my output is **exact value**
 * **metrics is accuracy**
-# I train my model with my "X_train_scaled, y_train and set number of epochs at 30" and I get unusually accuracy it means that my model is overtrained
+
+# Next training of my model, so i use (X_train_scaled, y_train and set number of epochs at 30)
+* i get unusually accuracy it means that my model is overtrained
 # When I evaluate my model with completely new "X_test Scaler, y_test" it return me pretty low accuracy
 # I also check predictions returning index of my prediction "np.argmax(score)"
 # I gonna "augment" my data with new samples by "rotating and zooming" my original data, I can also "flip it"  
