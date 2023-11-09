@@ -29,7 +29,11 @@
 * First layer have 16 filter detectors **(filter size is 3)** padding means adding **one layer of zeros** to my image while processing
 * And **(padding = same)** return **same output shape as my input shape** 
 
-# Then I add (pool layer after every conv. layer), and i also add two (hidden conv. layers) with 32 and 64 neurons
+# Then i add (pool layer after every conv. layer), and i also add two (hidden conv. layers) with 32 and 64 neurons
+* Purpose of adding (pool layer) is to reduce the dimensions the layers
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/maxpool.gif)
+
 # Next I add "Flatten layer" to convert it into "1D array" and I add one "Dense layer with 128 neurons", My "output layer will have 5 classes"
 # Then I compile my model with "optimizer as adam", loss as "SparseCategoricalCrossentropy", because my output is "exact value" and "metrics as accuracy"
 # I train my model with my "X_train_scaled, y_train and set number of epochs at 30" and I get unusually accuracy it means that my model is overtrained
