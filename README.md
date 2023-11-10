@@ -45,7 +45,7 @@
 
 # Next training of my model, so i use (X_train_scaled, y_train and set number of epochs at 30)
 * During the training appears **(accuracy close to 1.00)** it means that my model is overtrained
-* When I evaluate my model with **(X_test Scaler, y_test)** so brand new data it return me pretty low accuracy
+* When I evaluate my model with **(X_test Scaler, y_test)** so brand new data it return me pretty low accuracy in comparison to accuracy during trainning 
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Model_before_augmentation.png)
 
 * I also check predictions, but i need to return index of my prediction (np.argmax(score))
