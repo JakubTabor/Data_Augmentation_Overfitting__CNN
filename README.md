@@ -51,6 +51,9 @@
 * I also check predictions, but i need to return index of my prediction (np.argmax(score))
 
 # Now i gonna (augment) my data with new samples by (rotating and zooming) my original data, i can also (flip it)  
+
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/data_augmentation_process.png)
+
 # I show how my data is changing after "augmentation", I also need to it into "numpy and int" "data_augmentation(X)[0].numpy().astype("uint8")"
 # Once again I create my "Sequential model" but first I add "data_augmentation", then "thre convolutial layers", after every layer I create also "pool layer" 
 # And I add also "dropout layer" which will "drop 0.2 neurons" for better "accuracy score" and I Flatten my conv. layers
