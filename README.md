@@ -26,6 +26,8 @@
 * I check length of my sets and scaled them in range **(from 0 to 1 for training in my CNN)**
 
 # Now i gonna build CNN, i create variable to keep all visually good (num_classes = 5), then i start building (Sequential model)
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/CNN_model.png)
+
 * First layer have 16 filter detectors **(filter size is 3)** padding means adding **one layer of zeros** to my image while processing
 * And **(padding = same)** return **same output shape as my input shape** 
 
