@@ -46,9 +46,9 @@
 # Next training of my model, so i use (X_train_scaled, y_train and set number of epochs at 30)
 * During the training appears **(accuracy close to 1.00)** it means that my model is overtrained
 * When I evaluate my model with **(X_test Scaler, y_test)** so brand new data it return me pretty low accuracy
+* I also check predictions, but i need to return index of my prediction (np.argmax(score))
 
-# I also check predictions, but i need to return index of my prediction (np.argmax(score))
-# I gonna "augment" my data with new samples by "rotating and zooming" my original data, I can also "flip it"  
+# Now i gonna (augment) my data with new samples by (rotating and zooming) my original data, i can also (flip it)  
 # I show how my data is changing after "augmentation", I also need to it into "numpy and int" "data_augmentation(X)[0].numpy().astype("uint8")"
 # Once again I create my "Sequential model" but first I add "data_augmentation", then "thre convolutial layers", after every layer I create also "pool layer" 
 # And I add also "dropout layer" which will "drop 0.2 neurons" for better "accuracy score" and I Flatten my conv. layers
