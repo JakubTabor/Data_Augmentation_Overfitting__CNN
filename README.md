@@ -39,6 +39,8 @@
 * Then i compile my model with **optimizer as adam** and loss as **SparseCategoricalCrossentropy**, because my output is **exact value**
 * **metrics is accuracy**
 
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Flatten_layer.png)
+
 # Next training of my model, so i use (X_train_scaled, y_train and set number of epochs at 30)
 * During the training appears **(accuracy close to 1.00)** it means that my model is overtrained
 # When I evaluate my model with completely new "X_test Scaler, y_test" it return me pretty low accuracy
