@@ -68,5 +68,6 @@
 
 # I compile my model with this same parameters, because there is no need to change anything in there
 * And next training my model with **X_train_scaled and y_train and 20 epochs**
-# Accuracy on my model is "88", but when I evaluate model with new data from my "test sets" accuracy is "70"  in my previous model was "63"
+* Now accuracy of my model during the training reaches **88**
+* when I evaluate model with new data from my "test sets" accuracy is "70"  in my previous model was "63"
 # So we can notice difference, by adding new samples to our data and drop some neurons we can achieve better accuracy
