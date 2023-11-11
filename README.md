@@ -70,5 +70,7 @@
 * And next training my model with **X_train_scaled and y_train and 20 epochs**
 * Now accuracy of my model during the training reaches **88**
 * After evaluation of my model with my **test sets accuracy is 70**
+![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/Model_after_augmentation.png)
+
 * in my previous model **it was 63**
 # So we can notice difference, by adding new samples to our data and drop some neurons we can achieve better accuracy
