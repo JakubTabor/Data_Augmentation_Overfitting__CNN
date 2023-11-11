@@ -61,7 +61,7 @@
 
 ![](https://github.com/JakubTabor/Data_augmentation_imbalance_data/blob/main/Images/CNN_augmented.png)
 
-then "thre convolutial layers", after every layer I create also "pool layer" 
+* Then **thre convolutial layers** after every layer i put also **pool layer** 
 
 # And I add also "dropout layer" which will "drop 0.2 neurons" for better "accuracy score" and I Flatten my conv. layers
 # Then additional "Dense layer with 128 neurons" and output "Dense layer with five classes" 
